@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul {
+height: 40px;
+  margin: 1;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Libre Caslon Display", serif;
+}
+
+nav ul li {
+  float: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 5px;
+  background-color: rgb(173, 173, 224);
+  width: 100%;
+}
+.main ul li a:hover{color: rgb(223, 223, 179);
+} 
+.main{
+    width: 100%;
+    position: relative;
+}
+.logoArea{
+width: 10px;
+height: 10px;
+position: absolute;
+}
+header {
+  padding: 10px;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+ }
+
+/* .headerImage {
+;
+} */
+.section {
+    margin: 50px;
+    border: black;
+    border-block-color: black;
+    background-color: rgb(248, 248, 72);
+    height:40px;
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+.text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block;
+
+}
+footer {
+  height: 40px;
+  width: 100%;
+  background-color:rgb(248, 248, 72);
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+.icon {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.6em;
+  color:blue;
+}
+.icon:hover {
+  color: yellow;
+}
