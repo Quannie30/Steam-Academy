@@ -21,7 +21,7 @@ ul {
   margin: 0;
 }
 nav ul {
-height: 40px;
+  height: 40px;
   margin: 1;
   padding: 0;
   list-style: none;
@@ -46,19 +46,20 @@ nav ul li a {
   color: black;
   display: block;
   padding: 5px;
-  background-color: rgb(173, 173, 224);
+  background-color: rgb(162, 162, 214);
   width: 100%;
 }
-.main ul li a:hover{color: rgb(223, 223, 179);
-} 
-.main{
-    width: 100%;
-    position: relative;
+.main ul li a:hover {
+  color: rgb(223, 223, 179);
 }
-.logoArea{
-width: 10px;
-height: 10px;
-position: absolute;
+.main {
+  width: 100%;
+  position: relative;
+}
+.logoArea {
+  width: 10px;
+  height: 10px;
+  position: absolute;
 }
 header {
   padding: 10px;
@@ -68,43 +69,101 @@ header {
   display: flex;
   flex-direction: column;
   background-color: white;
- }
-
+}
+.headerText {
+  position: relative;
+}
 /* .headerImage {
 ;
 } */
 .section {
-    margin: 50px;
-    border: black;
-    border-block-color: black;
-    background-color: rgb(248, 248, 72);
-    height:40px;
-    width: 50%;
-    text-align: center;
-    flex-direction: column;
-    font-size: 25px;
+  font-size: 25px;
+  border: 1px black;
+  box-shadow: 5px 10px 12px black;
+  background-color: rgb(248, 248, 72);
+  height: 40px;
+  width: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
-.text {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    display: inline-block;
+/* section h2 .section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+} */
 
+.text {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 footer {
-  height: 40px;
+  height: 60px;
   width: 100%;
-  background-color:rgb(248, 248, 72);
+  background-color: rgb(248, 248, 72);
   color: black;
   font-weight: 800;
   text-align: center;
+  align-content: center;
 }
 .icon {
   margin: 5px;
   padding: 5px;
   font-size: 1.6em;
-  color:blue;
+  color: rgb(173, 173, 224);
 }
 .icon:hover {
-  color: yellow;
+  color: white;
+}
+.student {
+  margin: 0px;
+  padding: 0;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.intro {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+}
+.introImage {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  /* background-image: url("Steam Images/Background\ \(1\).png"); */
+  height: 500px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container p {
+  flex: 1 0 70%;
+  padding: 10px 40px 12px 14px;
+}
+.container aside {
+  flex: 0 1 30%;
+}
+.media {
+  margin: 1;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  flex-direction: column;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
