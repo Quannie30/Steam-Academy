@@ -21,7 +21,7 @@ ul {
   margin: 0;
 }
 nav ul {
-  height: 40px;
+  height: 80px;
   margin: 1;
   padding: 0;
   list-style: none;
@@ -30,6 +30,7 @@ nav ul {
   align-items: center;
   text-align: center;
   font-weight: 800;
+  font-size: 30px;
   font-family: "Libre Caslon Display", serif;
 }
 
@@ -73,35 +74,41 @@ header {
 .headerText {
   position: relative;
 }
-/* .headerImage {
-;
-} */
+
 .section {
-  font-size: 25px;
+  font-size: 40px;
   border: 1px black;
   box-shadow: 5px 10px 12px black;
   background-color: rgb(248, 248, 72);
-  height: 40px;
-  width: 400px;
+  height: 80px;
+  width: 600px;
   align-items: center;
   display: flex;
   justify-content: center;
   margin: 50px;
 }
-/* section h2 .section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-} */
 
+.section,
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
 .text {
-  font-size: 18px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   align-items: center;
   display: flex;
   justify-content: center;
+  width: auto;
 }
+p.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 footer {
   height: 60px;
   width: 100%;
@@ -128,42 +135,131 @@ footer {
   justify-content: center;
 }
 .intro {
+  font-size: 30px;
   text-align: center;
   align-items: center;
   display: flex;
   margin: 50px;
   justify-content: center;
 }
+p.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 .introImage {
   text-align: center;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: white;
-  /* background-image: url("Steam Images/Background\ \(1\).png"); */
+  background-image: url(./Steam\ Images/Background.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
   height: 500px;
   width: 100%;
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
+  
+}
 .container {
+  font-size: 30px;
   display: flex;
   flex-direction: row;
+  background-image: url(./Steam\ Images/background2.png);
+  background-size: 100%;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
 }
+
 .container p {
   flex: 1 0 70%;
   padding: 10px 40px 12px 14px;
+  text-align: center;
+  margin: auto;  
 }
+
 .container aside {
   flex: 0 1 30%;
 }
-.media {
-  margin: 1;
-  padding: 0;
-  width: 100%;
-  background-color: white;
-  flex-direction: column;
-  height: auto;
-  display: inline-flex;
-  align-items: center;
-  align-content: center;
+
+.container2 {
+	font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageclass {
+   float:left;
+   text-align: center;
+	 width:200px;
+	 height:200px;
+}
+.clear {
+  margin: 50px;
+  width: auto;
+  clear: both;
   text-align: center;
 }
+
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  float: none;
+}
+.media {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 20px 0 20px;
+}
+.column {
+  flex: 1 0 30%;
+  padding: 0 20px;
+
+}
+
+.card {
+  position: relative;
+  background: white;
+  box-shadow: 0 10px 16px 0px rgb(19, 8, 8);
+  border-radius: 4px;
+  padding: 20px 40px 70px 40px;
+  height: 80%;
+  text-align: center;
+  font-size: 30px;
+}
+.stars {
+  max-width: 120px;
+  left: 50%;
+  position: absolute;
+  bottom: -38px;
+  transform: translate(-50%);
+}
+
+.card p {
+  margin: 0;
+}
+
+h3 {
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.calendar {
+  display: block;
+  text-align: center;
+}
+
+
+
