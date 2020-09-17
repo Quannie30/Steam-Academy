@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-a {
+/* a {
   text-decoration: none;
 }
 
@@ -27,29 +27,75 @@ nav ul {
   list-style: none;
   display: flex;
   /* flex-direction: column; */
-  align-items: center;
+  /* align-items: center;
   text-align: center;
   font-weight: 800;
   font-size: 30px;
   font-family: "Libre Caslon Display", serif;
-}
+} */
 
-nav ul li {
+/* nav ul li {
   float: none;
   display: inline-block;
   margin: 0;
   padding: 0;
   width: 100%;
-}
+} */
 
-nav ul li a {
+/* nav ul li a {
   text-decoration: none;
   color: black;
   display: block;
   padding: 5px;
   background-color: rgb(162, 162, 214);
   width: 100%;
+}  */
+a {
+  text-decoration: none;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+nav ul li img {
+  height: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #eeeeee;
+  display: block;
+  padding: 10px;
+  background-color: rgb(170, 174, 219);
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+nav ul li a:hover {
+  background-color:  rgb(248, 248, 72);
+  color: rgb(170, 174, 219);
+}
+
 .main ul li a:hover {
   color: rgb(223, 223, 179);
 }
@@ -109,14 +155,46 @@ p.text {
   width: 70%;
 }
 
+
+.social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+}
+.social ul a {
+  text-decoration: none;
+}
 footer {
-  height: 60px;
-  width: 100%;
-  background-color: rgb(248, 248, 72);
-  color: black;
-  font-weight: 800;
+  background: linear-gradient(to bottom, #f9f9f9,#8878e2 );
+  padding: 20px;
+}
+
+.footer-links a:hover {
+  color: #ffd900;
+  cursor: pointer;
+}
+.footer-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-family: "Syne", sans-serif;
+}
+.footer-content li {
+  line-height: 1.5em;
+}
+.footer-img img {
+  width: 130px;
+  padding-top: 10px;
+}
+.contact ul li {
+  color: #313346;
+}
+.footer-bottom {
+  font-family: "Syne", sans-serif;
   text-align: center;
-  align-content: center;
+  color: #ffd900;
 }
 .icon {
   margin: 5px;
@@ -207,7 +285,6 @@ p.intro {
   text-align: center;
 }
 
-
 .wrapper {
   margin: 0 auto;
   max-width: 1200px;
@@ -215,6 +292,7 @@ p.intro {
 }
 .media {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding: 60px 20px 0 20px;
 }
@@ -260,6 +338,25 @@ h3 {
   display: block;
   text-align: center;
 }
+.Q {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Steam\ Images/Background2.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+}
+.logo {
+  padding: 5px;
+  font-size: 1.6em;
+}
+.logo:hover {
+  color: #ffd900;
+  cursor: pointer;
+}
+
 
 
 
