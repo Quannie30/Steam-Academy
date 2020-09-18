@@ -11,45 +11,6 @@ body {
   margin: 0;
 }
 
-/* a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-nav ul {
-  height: 80px;
-  margin: 1;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  /* flex-direction: column; */
-  /* align-items: center;
-  text-align: center;
-  font-weight: 800;
-  font-size: 30px;
-  font-family: "Libre Caslon Display", serif;
-} */
-
-/* nav ul li {
-  float: none;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-} */
-
-/* nav ul li a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 5px;
-  background-color: rgb(162, 162, 214);
-  width: 100%;
-}  */
 a {
   text-decoration: none;
 }
