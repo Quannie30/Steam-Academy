@@ -1,0 +1,16 @@
+@media screen and (min-width: 650px) {
+  nav ul {
+    flex-direction: row;
+  }
+  header {
+    height: 100vh;
+    font-size: 2em;
+  }
+  header h2 {
+    display: block;
+  }
+  #courses {
+    flex-flow: row;
+    /* flex-wrap: nowrap; */
+  }
+}
