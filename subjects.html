@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -17,18 +17,27 @@
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li>
-          <img src="images/Logo.png" alt="STEAM Academy Logo" />
-        </li>
-        <li><a href="#">Subjects</a></li>
-        <li><a href="#">Staff</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">About Us</a></li>
+    <div class="nav">
+      <a href="index.html" class="logo">Steam Academy</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navbars"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="staff.html">Staff</a></li>
       </ul>
-    </nav>
+    </div>
+
+    <header>
+      <img
+        src="Steam Images/200px Logo Steam Academy (1).png"
+        alt="Steam Academy logo"
+      />
+    </header>
 
     <main>
       <div>
@@ -78,11 +87,11 @@
         <div class="subject">
           <img src="images/art.png" alt="Arts" />
           <p>
-            In the movement from STEM to STEAM, the importance of the rts
-            cannot be understated in the development of a well-rounded student.
-            Whether through visual arts, performing arts or culinary arts, we
-            will lead our students in creative adventures that will stimulate
-            the mind and extend their boundaries.
+            In the movement from STEM to STEAM, the importance of the rts cannot
+            be understated in the development of a well-rounded student. Whether
+            through visual arts, performing arts or culinary arts, we will lead
+            our students in creative adventures that will stimulate the mind and
+            extend their boundaries.
           </p>
         </div>
         <div class="subject">
