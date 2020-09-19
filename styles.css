@@ -71,7 +71,7 @@ nav ul li a:hover {
 }
 header {
   padding: 10px;
-  height: 200px;
+  height: 400px;
   width: 100%;
   align-items: center;
   display: flex;
@@ -294,7 +294,19 @@ h3 {
   width: 70%;
   text-align: center;
 }
-
+.card2 {
+  position: relative;
+  background: white;
+  box-shadow: 0 10px 16px 0px rgb(19, 8, 8);
+  border-radius: 4px;
+  padding: 20px 40px 70px 40px;
+  height: 90%;
+  text-align: center;
+  font-size: 30px;
+}
+.card2 p {
+  margin: 0;
+}
 .calendar {
   display: block;
   text-align: center;
