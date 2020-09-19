@@ -35,7 +35,6 @@ nav ul li {
   margin: 0;
   padding: 0;
   width: 100%;
-
 }
 
 nav ul li img {
@@ -53,7 +52,7 @@ nav ul li a {
   font-weight: 600;
 }
 nav ul li a:hover {
-  background-color:  rgb(248, 248, 72);
+  background-color: rgb(248, 248, 72);
   color: rgb(170, 174, 219);
 }
 
@@ -116,7 +115,6 @@ p.text {
   width: 70%;
 }
 
-
 .social ul {
   margin: 0;
   padding: 0;
@@ -128,7 +126,7 @@ p.text {
   text-decoration: none;
 }
 footer {
-  background: linear-gradient(to bottom, #f9f9f9,#8878e2 );
+  background: linear-gradient(to bottom, #f9f9f9, #8878e2);
   padding: 20px;
 }
 
@@ -203,7 +201,6 @@ p.intro {
 .responsive {
   max-width: 100%;
   height: auto;
-  
 }
 .container {
   font-size: 30px;
@@ -220,7 +217,7 @@ p.intro {
   flex: 1 0 70%;
   padding: 10px 40px 12px 14px;
   text-align: center;
-  margin: auto;  
+  margin: auto;
 }
 
 .container aside {
@@ -228,16 +225,16 @@ p.intro {
 }
 
 .container2 {
-	font-size: 30px;
+  font-size: 30px;
   display: flex;
   flex-direction: row;
 }
 
 .imageclass {
-   float:left;
-   text-align: center;
-	 width:200px;
-	 height:200px;
+  float: left;
+  text-align: center;
+  width: 200px;
+  height: 200px;
 }
 .clear {
   margin: 50px;
@@ -260,7 +257,6 @@ p.intro {
 .column {
   flex: 1 0 30%;
   padding: 0 20px;
-
 }
 
 .card {
@@ -318,6 +314,73 @@ h3 {
   cursor: pointer;
 }
 
+/* STAFF CONTENT*/
+.staff {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  text-align: center;
+}
 
+.staff .staff_member {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 45px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
 
+.staff .staff_member h3 {
+  color: rgb(156, 192, 246);
+  font-size: 26px;
+  margin-top: 50px;
+}
 
+.staff .staff_member p.role {
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.staff .staff_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.staff .staff_member .team_img img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+/* LINK CONTENT-STAFF PAGE*/
+.news-content {
+  background-image: url(img/background.png);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5% 0;
+
+  transition: all 200ms ease-in-out;
+}
+.news:hover {
+  color: rgba(20, 74, 155);
+  opacity: 0.5;
+  transition: 0s;
+}
+.news {
+  background-color: white;
+  color: #8e8b8b;
+  flex: 1;
+  padding: 1%;
+  text-align: center;
+}
